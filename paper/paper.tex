@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+% PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\usepackage{graphicx} % Used for including images
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\renewcommand\thesubsubsection{\Roman{subsubsection}}
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{CSCI 4830/7000 $\bullet$ Spring 2016 $\bullet$ Satchel Spencer}  % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+% Lorem Ipsum text ala https://hipsum.co/
+
+%----------------------------------------------------------------------------------------
+% TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{All the Science}} % Article title
+
+\author{
+\large
+\textsc{Jane Q Public} \\% Your name
+\normalsize University of Colorado Boulder \\ % Your institution
+\normalsize \href{mailto:jane.public@colorado.edu}{jane.public@colorado.edu} % Your email address
+\vspace{-5mm}
+}
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+% ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+
+\noindent Lorem ipsum dolor amet green juice lumbersexual godard listicle mlkshk jean shorts vice subway tile 8-bit shaman swag microdosing XOXO. Neutra biodiesel bespoke irony kinfolk la croix cold-pressed kale chips. Biodiesel 8-bit tbh flannel chia. Direct trade cornhole art party, selfies beard hashtag keytar venmo. Tattooed tbh intelligentsia blue bottle marfa brooklyn. 90's cornhole everyday carry try-hard.
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+% ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Introduction}
+
+Lorem ipsum dolor amet green juice lumbersexual godard listicle mlkshk jean shorts vice subway tile 8-bit shaman swag microdosing XOXO. Neutra biodiesel bespoke irony kinfolk la croix cold-pressed kale chips. Biodiesel 8-bit tbh flannel chia. Direct trade cornhole art party, selfies beard hashtag keytar venmo. Tattooed tbh intelligentsia blue bottle marfa brooklyn. 90's cornhole everyday carry try-hard.
+
+Truffaut lo-fi poutine dreamcatcher vegan irony, direct trade asymmetrical jianbing typewriter photo booth schlitz. Lo-fi hot chicken af taiyaki waistcoat. Pug PBR&B tbh stumptown williamsburg offal tattooed try-hard. DIY flexitarian edison bulb, chia wolf salvia pinterest chicharrones activated charcoal aesthetic 90's subway tile locavore cliche cronut. Truffaut ramps man bun microdosing selfies la croix mixtape. Mustache occupy celiac single-origin coffee. Poke shabby chic humblebrag, disrupt butcher you probably haven't heard of them jianbing.
+
+Mixtape hashtag tousled iceland everyday carry listicle food truck deep v. Gentrify copper mug craft beer cloud bread freegan sustainable kombucha authentic wolf. Single-origin coffee lyft post-ironic, scenester coloring book tbh drinking vinegar +1 sartorial quinoa man bun trust fund lo-fi whatever you probably haven't heard of them. Af wayfarers kinfolk, letterpress yuccie lumbersexual williamsburg marfa skateboard wolf blue bottle unicorn.
+
+%------------------------------------------------
+
+\section{Data}
+
+Lorem ipsum dolor amet truffaut distillery hammock health goth, sustainable meh adaptogen pork belly selvage wolf green juice seitan. Vinyl tbh bitters, mumblecore chillwave kale chips you probably haven't heard of them truffaut cronut craft beer organic cornhole. Twee narwhal cold-pressed tacos poke banh mi XOXO pug snackwave green juice lomo direct trade subway tile listicle. Intelligentsia bespoke fingerstache kale chips cred messenger bag leggings tacos pabst cray banh mi health goth.
+
+Leggings heirloom ramps williamsburg chartreuse, pinterest chicharrones iceland direct trade retro pitchfork listicle. +1 XOXO franzen pok pok, jean shorts activated charcoal PBR&B slow-carb. Fixie yuccie hell of schlitz, adaptogen farm-to-table shaman sartorial. You probably haven't heard of them organic flannel air plant vaporware dreamcatcher green juice adaptogen. Poke art party squid, direct trade taiyaki snackwave ramps roof party hoodie.
+
+\section{Methods}
+
+Lorem ipsum dolor amet green juice single-origin coffee fam waistcoat, tilde hexagon squid. Iceland cold-pressed venmo, meh pitchfork man bun hoodie austin beard enamel pin XOXO fanny pack waistcoat microdosing. Twee sriracha try-hard adaptogen. Taxidermy migas thundercats hexagon neutra freegan scenester occupy subway tile pop-up af taiyaki sartorial synth. Pitchfork cornhole aesthetic you probably haven't heard of them forage four loko fashion axe vegan. Gochujang quinoa lomo tote bag.
+
+Man bun palo santo bushwick, pork belly bespoke chia plaid. Whatever butcher listicle polaroid chia banh mi pickled fixie readymade literally synth church-key thundercats squid umami. 3 wolf moon four dollar toast coloring book bicycle rights shabby chic listicle gluten-free disrupt artisan beard gastropub. Wolf kogi before they sold out, iPhone forage woke cliche fingerstache blue bottle everyday carry retro single-origin coffee portland green juice.
+
+Locavore salvia health goth snackwave. Shabby chic vaporware venmo, food truck woke meh bicycle rights crucifix cronut ugh helvetica listicle chicharrones street art. Artisan humblebrag direct trade, sustainable kale chips keytar forage 3 wolf moon occupy succulents pitchfork. PBR&B you probably haven't heard of them activated charcoal synth green juice fingerstache banh mi listicle ramps authentic stumptown coloring book pour-over occupy af. Tumblr heirloom meggings hexagon disrupt vaporware shabby chic affogato kombucha next level health goth austin dreamcatcher swag jean shorts. Art party meditation tilde roof party, ramps chillwave paleo skateboard food truck yr schlitz chicharrones lo-fi man bun.
+
+Brooklyn bicycle rights celiac fashion axe, tumblr readymade tumeric distillery. Schlitz bicycle rights celiac activated charcoal cornhole irony hexagon messenger bag chillwave. Gentrify enamel pin normcore before they sold out yr retro direct trade slow-carb man bun. Selfies asymmetrical fixie +1, deep v vice 3 wolf moon trust fund air plant sustainable.
+
+\section{Results}
+
+Lorem ipsum dolor amet af craft beer coloring book gochujang flexitarian kale chips. VHS kogi hella, retro typewriter scenester locavore literally blog. Palo santo glossier artisan bitters wayfarers. Cronut try-hard glossier actually shaman heirloom fashion axe vice. Semiotics organic mustache vinyl, messenger bag etsy viral hot chicken craft beer shaman banh mi fashion axe distillery. Tumeric VHS quinoa kitsch, tbh fam small batch swag live-edge sriracha cred forage plaid. Vinyl lyft sriracha offal deep v PBR&B cray organic put a bird on it.
+
+Chicharrones pork belly irony, actually PBR&B brunch iPhone fashion axe truffaut freegan pop-up snackwave succulents stumptown. Keytar knausgaard kogi drinking vinegar. Neutra irony activated charcoal leggings coloring book, everyday carry crucifix blue bottle. 90's letterpress banjo hammock, authentic lo-fi glossier kitsch unicorn selvage vice put a bird on it tumblr salvia roof party. Disrupt brunch pug affogato.
+
+\section{Discussion and Conclusions}
+
+Lorem ipsum dolor amet offal bitters venmo 90's brunch thundercats synth messenger bag. Kombucha bespoke tumblr pabst. Seitan four loko hell of pabst, mustache meh shabby chic hella YOLO cardigan pok pok gluten-free vinyl iceland. Tumblr chicharrones vaporware, farm-to-table jianbing gochujang normcore woke kickstarter before they sold out activated charcoal dreamcatcher.
+
+Vape retro VHS PBR&B chartreuse readymade chambray gastropub artisan etsy organic la croix. VHS shabby chic squid kale chips lo-fi fashion axe green juice tofu affogato fam hella 8-bit gentrify. 90's ethical skateboard, listicle narwhal everyday carry taxidermy. Tumblr you probably haven't heard of them letterpress chia live-edge seitan literally iceland.
+
+%----------------------------------------------------------------------------------------
+% REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+\bibitem[AHS, 2013]{ahs2013}
+American Housing Survey 2013 {\em U.S. Census Bureau http://www.census.gov/programs-surveys/ahs.html}
+
+\bibitem[R Core Team, 2015]{rcore2015}
+R Core Team (2015). R: A language and environment for statistical computing. {\emR Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/.}
+
+
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{multicols}
+
+\end{document}
